@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- ------ style sheet link ------- -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- ----------- js link ----------- -->
+		<script src="./script.js" defer></script>
+		<title>weather app</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Weather App</h1>
+			<form novalidate>
+				<input
+					type="text"
+					name=""
+					id="city__input"
+					placeholder="Enter City"
+				/>
+				<input type="submit" value="Get Weather" />
+			</form>
+			<div id="weather__data">
+				<div class="icon">
+					<!-- <img
+						src="http://openweathermap.org/img/wn/01d.png"
+						alt="Weather icon"
+					/> -->
+				</div>
+				<div class="temprature"></div>
+				<div class="description"></div>
+				<div class="details">
+					<!-- <div>Feels like: <span class="datas"></span></div>
+					<div>Humidity: <span class="datas"></span></div>
+					<div>Wind speed: <span class="datas"></span></div> -->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
